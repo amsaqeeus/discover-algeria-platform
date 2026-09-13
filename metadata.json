@@ -1,0 +1,6 @@
+{
+  "name": "Discover Algeria - Tourist Spots & Hidden Gems",
+  "description": "Discover, share, and review tourist spots and hidden gems across Algeria with vibes, photos, and Google Maps links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
