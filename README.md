@@ -209,11 +209,7 @@ npm run start
 #### `POST /api/auth/login`
 Authenticates the administrator with rate limiting and timing-safe comparison.
 - **Request Body**:
-  ```json
-  {
-    "password": "your-admin-password"
-  }
-  ```
+
 - **Responses**:
   - `200 OK`: Returns session token with TTL.
   - `401 Unauthorized`: Returns remaining failed attempts.
