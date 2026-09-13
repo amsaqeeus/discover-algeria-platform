@@ -78,7 +78,6 @@ Algeria boasts extraordinary geographical and historical diversity—from Medite
 - Direct approval and rejection workflows for pending submissions.
 - Full editing capabilities (title, description, wilaya, coordinates, vibes, imagery) and deletion controls.
 - Review moderation tools to maintain community guidelines.
-- Custom brand emblem and logo controls.
 
 ---
 
@@ -173,7 +172,7 @@ cp .env.example .env
 
 | Variable | Description | Default / Example |
 | :--- | :--- | :--- |
-| `ADMIN_PASSWORD` | Administrator password for approving and moderating spots | `visit 2026` |
+| `ADMIN_PASSWORD` | Administrator password for approving and moderating spots | *Set your private password in `.env`* |
 | `PORT` | Local server port (optional) | `3000` |
 | `GEMINI_API_KEY` | Optional API key for Google Gemini generative AI features | (Optional) |
 
